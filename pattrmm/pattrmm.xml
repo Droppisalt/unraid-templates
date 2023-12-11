@@ -24,9 +24,9 @@ https://hub.docker.com/r/insertdisc/pattrmm/</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="Set your timezone, i.e. America/Toronto" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Run Time" Target="PATTRMM_TIME" Default="" Mode="" Description="Set time to run for Pattrmm. Preferably not when Plex, PlexMetaManager, etc. are running their sceduled tasks. If empty, the container will run when created." Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Preferences" Target="/preferences" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Run Time" Target="PATTRMM_TIME" Default="" Mode="" Description="Set time to run for Pattrmm. Preferably not when Plex, PlexMetaManager, etc. are running their sceduled tasks." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="Data files created by Pattrmm, should be in your appdata folder for pattrmm but can be somewhere else." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Preferences" Target="/preferences" Default="" Mode="rw" Description="Preferences files created by Pattrmm on first run only, should be in your appdata folder for pattrmm but can be somewhere else." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PMM Config" Target="/config" Default="" Mode="rw" Description="Path to your PMM config.yml. Make sure Pattrmm has access/the correct permissions to read the file." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="GUID" Target="GUID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
