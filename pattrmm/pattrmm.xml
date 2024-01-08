@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>pattrmm</Name>
   <Repository>insertdisc/pattrmm</Repository>
-  <Registry>ghcr.io/insertdisc/pattrmm:lastest</Registry>
+  <Registry>ghcr.io/insertdisc/pattrmm</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
