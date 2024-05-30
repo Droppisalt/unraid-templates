@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Maintainerr</Name>
+  <Repository>jorenn92/maintainerr:latest</Repository>
+  <Registry>https://hub.docker.com/r/jorenn92/maintainerr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/jorenn92/Maintainerr/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc</Support>
+  <Project>https://github.com/jorenn92/Maintainerr</Project>
+  <Overview>Maintainerr makes managing your media easy. Create custom rules with parameters across different services, show matching media on the Plex home screen for a given amount of days and handle the deletion.</Overview>
+  <Category>Tools: Other:</Category>
+  <WebUI>http://[IP]:[PORT:6246]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/jorenn92/Maintainerr/blob/main/ui/public/logo.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1694018747</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="6246" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6246</Config>
+  <Config Name="Data" Target="/opt/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/maintainerr</Config>
+  <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/Chicago</Config>
+</Container>
