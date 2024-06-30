@@ -14,7 +14,7 @@
   <WebUI>http://[IP]:[PORT:6246]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/jorenn92/Maintainerr/blob/main/ui/public/logo.png?raw=true</Icon>
-  <ExtraParams/>
+  <ExtraParams>-u 99:100</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1694018747</DateInstalled>
