@@ -32,6 +32,7 @@ ghcr.io/insertdisc/pattrmm/</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="Set your timezone, i.e. America/Toronto" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Run Now" Target="RUN_NOW" Default="False" Mode="" Description="Set to 'True' to immediately do a run and then exit when finished when the container starts. (Currently only available on the nightly branch.)" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Run Time" Target="PATTRMM_TIME" Default="" Mode="" Description="Set time to run for Pattrmm (in 24h format). Preferably not when Plex, Kometa, TitleCardMaker etc. are running their sceduled tasks." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Data Path" Target="/data" Default="/mnt/user/appdata/pattrmm/data" Mode="rw" Description="Data files created by Pattrmm, should be in your appdata folder for pattrmm but can be somewhere else." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Preferences" Target="/preferences" Default="/mnt/user/appdata/pattrmm/preferences" Mode="rw" Description="Preferences files created by Pattrmm on first run only, should be in your appdata folder for pattrmm but can be somewhere else." Type="Path" Display="always" Required="true" Mask="false"/>
